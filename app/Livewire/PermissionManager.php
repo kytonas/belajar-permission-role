@@ -32,6 +32,6 @@ class PermissionManager extends Component
 
     public function render()
     {
-        return view('livewire.permission-manager');
+        return view('livewire.permission-manager')->layout('layouts.admin', ['title' => 'Permission Manager']);
     }
 }

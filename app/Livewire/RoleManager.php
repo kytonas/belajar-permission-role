@@ -32,11 +32,7 @@ class RoleManager extends Component
 
     public function render()
     {
-        return view('livewire.role-manager');
+        return view('livewire.role-manager')->layout('layouts.admin', ['title' => 'Roles Manager']);
     }
 
-    public function layout()
-    {
-        return 'layouts.app'; // Assuming this is the correct layout path
-    }
 }

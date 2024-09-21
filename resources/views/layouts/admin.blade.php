@@ -8,7 +8,7 @@
   </head>
   <body>
 
-    <x-navigation-menu></x-navigation-menu>
+    <x-navigation-menu-admin></x-navigation-menu-admin>
 
     <main class="py-5">
         <div class="container">
